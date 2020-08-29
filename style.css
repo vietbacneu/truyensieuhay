@@ -453,8 +453,8 @@ main img:hover {
   position: fixed;
   z-index: 10;
   width: 30px;
-  top: 730px;
-  right: 50px;
+  top:  720px;
+  right: 60px;
 }
 .backtotop a {
   font-size: 40px;
