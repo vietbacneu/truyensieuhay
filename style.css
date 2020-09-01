@@ -87,7 +87,10 @@ input {
   margin-right: 10px;
   border: 1px solid red;
 }
-
+.up ul li:hover {
+  font-weight: 550;
+  color: red;
+}
 .menu1 {
   height: 50px;
   width: 1100px;
@@ -395,7 +398,8 @@ label:hover {
 }
 .slide-22 ul li {
   text-align: left;
-  padding: 2.5px 0px;
+  padding: 5px 0px;
+  font-size: 15px;
 }
 .truyen {
   width: 1100px;
