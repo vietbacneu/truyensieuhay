@@ -37,6 +37,7 @@ ul {
   grid-template: auto/repeat(3, 1fr);
   margin: auto;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .timkiem {
   margin-top: 30px;
@@ -88,22 +89,24 @@ input {
 }
 
 .menu1 {
+  height: 50px;
   width: 1100px;
   margin: auto;
   display: grid;
   grid-template: auto/1fr 2fr 2fr 1.6fr 2fr 1.3fr 1fr;
   text-align: center;
 }
-.item1 a {
+.item1  {
+  height: 50px;
   font-size: 17px;
-
   font-weight: 550;
   color: white;
+line-height: 50px;
 }
 .item1:hover {
   background-color: white;
 }
-.item1:hover a {
+ a:hover .item1 {
   color: #3f94d5;
 }
 .menu2 {
@@ -128,6 +131,7 @@ input {
   display: none;
   position: absolute;
   z-index: 1000;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(97, 97, 97);
 }
 
 .sub-menu li {
@@ -153,6 +157,8 @@ input {
   display: none;
   position: absolute;
   z-index: 1;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(97, 97, 97);
+
 }
 .sub-menu2 li {
   display: inline-block;
